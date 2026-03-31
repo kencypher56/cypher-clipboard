@@ -1,0 +1,47 @@
+# 🔹 Compiled binaries
+
+clipboard
+*.out
+*.app
+
+# 🔹 Object files
+
+*.o
+*.obj
+
+# 🔹 Debug / build artifacts
+
+*.log
+*.cache
+*.d
+
+# 🔹 Shared libraries
+
+*.so
+*.a
+
+# 🔹 Temporary files
+
+*~
+*.swp
+*.swo
+
+# 🔹 IDE / Editor files
+
+.vscode/
+.idea/
+*.code-workspace
+
+# 🔹 OS files
+
+.DS_Store
+Thumbs.db
+
+# 🔹 Build directories (if added later)
+
+build/
+dist/
+
+# ❗ IMPORTANT: Do NOT ignore Makefile
+
+!Makefile
